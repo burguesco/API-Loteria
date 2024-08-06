@@ -3,13 +3,13 @@ API REST Loteria España
 
 ### Request
 ```html
-https://lottorest.onrender.com/
-https://lottorest.onrender.com/euromillon
-https://lottorest.onrender.com/primitiva
-https://lottorest.onrender.com/bonoloto
-https://lottorest.onrender.com/gordo
-https://lottorest.onrender.com/nacional
-https://lottorest.onrender.com/quiniela
+[https://lottorest.onrender.com](https://lottorest.onrender.com)
+[https://lottorest.onrender.com/euromillon](https://lottorest.onrender.com/euromillon)
+[https://lottorest.onrender.com/primitiva](https://lottorest.onrender.com/primitiva)
+[https://lottorest.onrender.com/bonoloto](https://lottorest.onrender.com/bonoloto)
+[https://lottorest.onrender.com/gordo](https://lottorest.onrender.com/gordo)
+[https://lottorest.onrender.com/nacional](https://lottorest.onrender.com/nacional)
+[https://lottorest.onrender.com/quiniela](https://lottorest.onrender.com/quiniela)
 ``` 
 
 ### Response
@@ -65,79 +65,8 @@ https://lottorest.onrender.com/quiniela
         "equipo2": "Alemania F",
         "goles": "0-0",
         "resultado": "X"
-      },
-      {
-        "equipo1": "Francia F",
-        "equipo2": "Brasil F",
-        "goles": "0-1",
-        "resultado": "2"
-      },
-      {
-        "equipo1": "Gais",
-        "equipo2": "Norrkoping",
-        "goles": "0-1",
-        "resultado": "2"
-      },
-      {
-        "equipo1": "Vasteras",
-        "equipo2": "Aik",
-        "goles": "1-2",
-        "resultado": "2"
-      },
-      {
-        "equipo1": "Brommapojkarna",
-        "equipo2": "Halmstads",
-        "goles": "4-1",
-        "resultado": "1"
-      },
-      {
-        "equipo1": "Djurgardens",
-        "equipo2": "Goteborg",
-        "goles": "1-1",
-        "resultado": "X"
-      },
-      {
-        "equipo1": "Varnamo",
-        "equipo2": "Sirius",
-        "goles": "2-4",
-        "resultado": "2"
-      },
-      {
-        "equipo1": "Kalmar",
-        "equipo2": "Hammarby",
-        "goles": "1-4",
-        "resultado": "2"
-      },
-      {
-        "equipo1": "Bodo Glimt",
-        "equipo2": "Haugesund",
-        "goles": "4-2",
-        "resultado": "1"
-      },
-      {
-        "equipo1": "Hamarkameratene",
-        "equipo2": "Viking",
-        "goles": "3-3",
-        "resultado": "X"
-      },
-      {
-        "equipo1": "Kristiansund",
-        "equipo2": "Lillestrom",
-        "goles": "2-1",
-        "resultado": "1"
-      },
-      {
-        "equipo1": "Fredrikstad",
-        "equipo2": "Kfum",
-        "goles": "0-0",
-        "resultado": "X"
-      },
-      {
-        "equipo1": "Stromsgodset",
-        "equipo2": "Brann Bergen",
-        "goles": "2-3",
-        "resultado": "2-M"
       }
+      ...
     ]
   }
 }
