@@ -1,2 +1,144 @@
-# API-Loteria
-API - Loterias y Apuestas del Estado
+API REST Loteria España
+---------------------
+
+### Request
+```html
+https://lottorest.onrender.com/
+https://lottorest.onrender.com/euromillon
+https://lottorest.onrender.com/primitiva
+https://lottorest.onrender.com/bonoloto
+https://lottorest.onrender.com/gordo
+https://lottorest.onrender.com/nacional
+https://lottorest.onrender.com/quiniela
+``` 
+
+### Response
+```html
+{
+  "euromillon": {
+    "fechaEuromillon": "2024-08-06",
+    "combinacionEuromillon": "01 18 27 41 50",
+    "estrellas": "02 12",
+    "codigoMillon": "FMZ81323"
+  },
+  "primitiva": {
+    "fechaPrimitiva": "2024-08-05",
+    "combinacionPrimitiva": "11 18 36 41 44 49",
+    "complementarioPrimitiva": "35",
+    "reintegroPrimitiva": "4",
+    "joker": "0 091 862"
+  },
+  "bonoloto": {
+    "fechaBonoloto": "2024-08-05",
+    "combinacionBonoloto": "01 04 10 25 38 41",
+    "complementarioBonoloto": "47",
+    "reintegroBonoloto": "1"
+  },
+  "gordo": {
+    "fechaGordo": "2024-08-04",
+    "combinacionGordo": "21 34 36 41 48",
+    "reintegroGordo": "8"
+  },
+  "nacional": {
+    "fechaNacional": "2024-08-01",
+    "primerPremio": "91351",
+    "segundoPremio": "70909",
+    "reintegroNacional": "1 7 9"
+  },
+  "quiniela": {
+    "fechaQuiniela": "2024-08-04",
+    "partidos": [
+      {
+        "equipo1": "Estados Unidos F",
+        "equipo2": "Japón F",
+        "goles": "1-0",
+        "resultado": "1"
+      },
+      {
+        "equipo1": "España F",
+        "equipo2": "Colombia F",
+        "goles": "2-2",
+        "resultado": "X"
+      },
+      {
+        "equipo1": "Canadá F",
+        "equipo2": "Alemania F",
+        "goles": "0-0",
+        "resultado": "X"
+      },
+      {
+        "equipo1": "Francia F",
+        "equipo2": "Brasil F",
+        "goles": "0-1",
+        "resultado": "2"
+      },
+      {
+        "equipo1": "Gais",
+        "equipo2": "Norrkoping",
+        "goles": "0-1",
+        "resultado": "2"
+      },
+      {
+        "equipo1": "Vasteras",
+        "equipo2": "Aik",
+        "goles": "1-2",
+        "resultado": "2"
+      },
+      {
+        "equipo1": "Brommapojkarna",
+        "equipo2": "Halmstads",
+        "goles": "4-1",
+        "resultado": "1"
+      },
+      {
+        "equipo1": "Djurgardens",
+        "equipo2": "Goteborg",
+        "goles": "1-1",
+        "resultado": "X"
+      },
+      {
+        "equipo1": "Varnamo",
+        "equipo2": "Sirius",
+        "goles": "2-4",
+        "resultado": "2"
+      },
+      {
+        "equipo1": "Kalmar",
+        "equipo2": "Hammarby",
+        "goles": "1-4",
+        "resultado": "2"
+      },
+      {
+        "equipo1": "Bodo Glimt",
+        "equipo2": "Haugesund",
+        "goles": "4-2",
+        "resultado": "1"
+      },
+      {
+        "equipo1": "Hamarkameratene",
+        "equipo2": "Viking",
+        "goles": "3-3",
+        "resultado": "X"
+      },
+      {
+        "equipo1": "Kristiansund",
+        "equipo2": "Lillestrom",
+        "goles": "2-1",
+        "resultado": "1"
+      },
+      {
+        "equipo1": "Fredrikstad",
+        "equipo2": "Kfum",
+        "goles": "0-0",
+        "resultado": "X"
+      },
+      {
+        "equipo1": "Stromsgodset",
+        "equipo2": "Brann Bergen",
+        "goles": "2-3",
+        "resultado": "2-M"
+      }
+    ]
+  }
+}
+``` 
