@@ -3,13 +3,13 @@ API REST Loteria España
 
 ### Request
 ```html
-[https://lottorest.onrender.com](https://lottorest.onrender.com)
-[https://lottorest.onrender.com/euromillon](https://lottorest.onrender.com/euromillon)
-[https://lottorest.onrender.com/primitiva](https://lottorest.onrender.com/primitiva)
-[https://lottorest.onrender.com/bonoloto](https://lottorest.onrender.com/bonoloto)
-[https://lottorest.onrender.com/gordo](https://lottorest.onrender.com/gordo)
-[https://lottorest.onrender.com/nacional](https://lottorest.onrender.com/nacional)
-[https://lottorest.onrender.com/quiniela](https://lottorest.onrender.com/quiniela)
+<a href="https://lottorest.onrender.com" target="_blank">https://lottorest.onrender.com</a>
+<a href="https://lottorest.onrender.com/euromillon" target="_blank">https://lottorest.onrender.com/euromillon</a>
+<a href="https://lottorest.onrender.com/primitiva" target="_blank">https://lottorest.onrender.com/primitiva</a>
+<a href="https://lottorest.onrender.com/bonoloto" target="_blank">https://lottorest.onrender.com/bonoloto</a>
+<a href="https://lottorest.onrender.com/gordo" target="_blank">https://lottorest.onrender.com/gordo</a>
+<a href="https://lottorest.onrender.com/nacional" target="_blank">https://lottorest.onrender.com/nacional</a>
+<a href="https://lottorest.onrender.com/quiniela" target="_blank">https://lottorest.onrender.com/quiniela</a>
 ``` 
 
 ### Response
